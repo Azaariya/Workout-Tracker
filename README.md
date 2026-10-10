@@ -1,16 +1,86 @@
-# React + Vite
+# 🏋️ Workout Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A workout tracking web application built with React and Vite. It provides a simple interface for organizing workouts and managing exercise information.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[**Try Workout Tracker**](https://workout-tracker-by-azariya.netlify.app/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Workout Management:** Add, edit, and delete workout entries.
+* **Muscle Group Selection:** Organize workouts by selecting a muscle group.
+* **Interactive Interface:** Manage workout information through a React-based user interface.
+* **Persistent Storage:** Uses browser localStorage to retain workout data between visits, if enabled in the current version.
+* **Responsive Design:** View and manage workouts across supported screen sizes.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript (ES6+)
+* Vite
+* HTML5
+* CSS3
+* Browser localStorage
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js and npm
+* Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Azaariya/Workout-Tracker.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Workout-Tracker
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 📸 Screenshots
+
+Add screenshots of the workout dashboard and workout management interface here.
+
+## 📚 What I Learned
+
+Building this project helped me practice:
+
+* Creating reusable React components.
+* Managing application state.
+* Handling user interactions and form submissions.
+* Implementing create, read, update, and delete operations.
+* Working with browser localStorage.
+* Building and running a React application using Vite.
+
+## 👨‍💻 Author
+
+**Azaria**
+
+Electrical and Computer Engineering student at Addis Ababa Science and Technology University.
+
+* GitHub: [@Azaariya](https://github.com/Azaariya)
+
+---
+
+If you find this project interesting, feel free to explore the repository and try the live demo.
